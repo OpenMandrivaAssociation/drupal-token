@@ -1,6 +1,6 @@
 %define modname		token
 %define drupal_version	7
-%define module_version	1.0
+%define module_version	1.1
 %define version		%{drupal_version}.x.%{module_version}
 %define tarname		%{modname}-%{drupal_version}.x-%{module_version}
 
