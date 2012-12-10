@@ -43,3 +43,14 @@ rm -f %{buildroot}%{_var}/www/drupal/modules/%{modname}/*.txt
 %files
 %{_var}/www/drupal/modules/%{modname}
 %doc README.txt
+
+
+%changelog
+* Thu Aug 09 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.1-1
++ Revision: 813172
+- update to 7.x.1.1
+
+* Sat May 12 2012 Dmitry Mikhirev <dmikhirev@mandriva.org> 7.x.1.0-1
++ Revision: 798391
+- imported package drupal-token
+
